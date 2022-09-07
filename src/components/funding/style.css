@@ -1,0 +1,81 @@
+.funding-container{
+    width:87%;
+    height:calc(100% - 80px);
+    background-color:#f0f0f0; 
+    display:flex;
+}
+.getfunds-container{
+    height:25%;
+    background-color:#fff;
+    border-radius:10px;
+    margin-bottom:10px;
+    box-shadow:2px 3px #e0e0e0;
+    display:flex;
+    justify-content:space-between;
+}
+.funds-statistics{
+    width:450px;
+    height:100%;
+    background-color:#fa8107;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:0px 10px
+}
+.info-container{
+    width:75%;
+    flex-direction:column;
+    margin-top:15px;
+    margin-left:30px;
+}
+.othercharts-container{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    background-color:#fff;
+    border-radius:10px;
+    padding:10px;
+    margin-top:15px;
+    margin-right:30px;
+    margin-bottom:15px;
+    margin-left:10px;
+}
+.line-chart , .pie-chart{
+    width:98%;
+    margin:20px 0px
+}
+@media only screen and (max-width: 1200px) {
+    .funding-container{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .getfunds-container{
+        height:420px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .funds-statistics{
+        width:100%;
+        height:250px;   
+    }
+    .info-container{
+        width:100%;
+        margin:10px 0px;
+    }
+    .othercharts-container{
+        width:99%;
+        height:350px;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .line-chart , .pie-chart{
+        width:50%;
+    }
+    
+}
